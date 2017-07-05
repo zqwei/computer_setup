@@ -20,6 +20,7 @@ brew install macvim --env-std --with-override-system-vim
 
 ## fish
 brew install fish
+echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
 curl -L https://get.oh-my.fish | fish
 
 ## Software
