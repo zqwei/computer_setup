@@ -17,3 +17,10 @@ http://papersapp.com/mac/
 
 ### QQ browser
 http://bbs.browser.qq.com/thread-92391-1-1.html
+
+## Slack
+* Druckmannlab
+* ahrenslab
+* pixybot
+* mesoscaleactivitymap
+* mlreadingclub
