@@ -14,6 +14,14 @@ sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install
 ### terminal themes:
 https://github.com/lysyi3m/osx-terminal-themes
 
+## Powerline
+pip install --user powerline-status
+brew install macvim --env-std --with-override-system-vim
+
+## fish
+brew install fish
+curl -L https://get.oh-my.fish | fish
+
 ## Software
 
 ### Papers
