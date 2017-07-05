@@ -22,6 +22,12 @@ http://papersapp.com/mac/
 ### QQ browser
 http://bbs.browser.qq.com/thread-92391-1-1.html
 
+### Atom
+https://atom.io/
+
+### Anaconda
+https://www.continuum.io/downloads
+
 ## Slack
 * Druckmannlab
 * ahrenslab
