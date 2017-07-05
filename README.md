@@ -14,3 +14,6 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 
 ### Papers
 http://papersapp.com/mac/
+
+### QQ browser
+http://bbs.browser.qq.com/thread-92391-1-1.html
