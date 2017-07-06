@@ -16,6 +16,7 @@ https://github.com/lysyi3m/osx-terminal-themes
 
 ## Powerline
 pip install --user powerline-status
+
 brew install macvim --env-std --with-override-system-vim
 
 ## fish
