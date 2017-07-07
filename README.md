@@ -33,6 +33,9 @@ cd ..
 
 rm -rf fonts
 
+### Awesome Powerline font
+https://github.com/gabrielelana/awesome-terminal-fonts
+
 ## fish
 brew install fish
 
