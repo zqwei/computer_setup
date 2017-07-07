@@ -11,6 +11,9 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 ## oh-my-zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
+### power level 9k theme
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
 ### terminal themes:
 https://github.com/lysyi3m/osx-terminal-themes
 
