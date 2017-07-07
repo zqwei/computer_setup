@@ -64,3 +64,7 @@ https://www.continuum.io/downloads
 * pixybot
 * mesoscaleactivitymap
 * mlreadingclub
+
+## Remove guest account at login
+
+sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWOTHERUSERS_MANAGED -bool FALSE
