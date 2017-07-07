@@ -11,6 +11,8 @@ export ZSH=/Users/dalin/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
+POWERLEVEL9K_MODE='awesome-fontconfig'
+
 screenfetch -E
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
