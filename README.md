@@ -27,6 +27,11 @@ chsh -s /usr/local/bin/fish
 
 curl -L https://get.oh-my.fish | fish
 
+## imgcat
+ brew tap eddieantonio/eddieantonio
+
+ brew install imgcat 
+
 ## Software
 
 ### Papers
