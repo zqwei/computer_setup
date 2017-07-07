@@ -11,6 +11,11 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 ## oh-my-zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+### power level 9k theme
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
 ### terminal themes:
 https://github.com/lysyi3m/osx-terminal-themes
 
@@ -30,6 +35,9 @@ cd ..
 
 rm -rf fonts
 
+### Awesome Powerline font
+https://github.com/gabrielelana/awesome-terminal-fonts
+
 ## fish
 brew install fish
 
@@ -40,9 +48,14 @@ chsh -s /usr/local/bin/fish
 curl -L https://get.oh-my.fish | fish
 
 ## imgcat
- brew tap eddieantonio/eddieantonio
+brew tap eddieantonio/eddieantonio
 
- brew install imgcat 
+brew install imgcat 
+
+## screenfetch
+brew install screenfetch 
+
+
 
 ## Software
 
