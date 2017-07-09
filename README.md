@@ -5,8 +5,12 @@
 
 brew install wget
 
-## git autocompletion
+## git 
+### git autocompletion
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
+
+### git open
+npm install --global git-open
 
 ## oh-my-zsh
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
