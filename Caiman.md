@@ -16,4 +16,5 @@ conda install -c conda-forge opencv
 conda install libtiff
 conda install -c conda-forge tqdm
 conda install -c anaconda ipyparallel
+conda install -c cvxgrp cvxpy libgcc
 ```
