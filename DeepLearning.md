@@ -1,4 +1,4 @@
-# Installation on Mac 10.13
+# Installation Tensorflow
 ## Py3.6
 ```bash
 pip install --upgrade \
@@ -21,3 +21,7 @@ https://github.com/lakshayg/tensorflow-build
 pip install -r requirements.txt
 ```
 
+# Install Pytorch
+```bash
+conda install pytorch torchvision -c pytorch
+```
