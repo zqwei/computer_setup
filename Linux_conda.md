@@ -31,6 +31,6 @@ pip install -e CaImAn
 cd trefide/src
 make clean
 make
-LDSHARED="icc -shared" CC=icc CXX=icpc pip install -e /path/to/trefide
+LDSHARED="icc -shared" CC=icc CXX=icpc pip install -e trefide
 pip install -e funimag
 ```
