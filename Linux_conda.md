@@ -15,12 +15,15 @@ conda install -c anaconda opencv
 ## Install others
 ```bash
 conda install -c conda-forge tqdm
-conda install -c anaconda ipyparallel
+conda install -c anaconda ipyparallel future
 conda install -c cvxgrp cvxpy libgcc
 ```
 
 ## Install Dask
-
+```bash
+conda install -c conda-forge dask-ml
+conda install -c conda-forge dask-drmaa
+```
 
 ## Install Imaging packages
 ```bash
