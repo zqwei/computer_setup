@@ -1,12 +1,14 @@
+# Setup for cluster envorinment of conda
+
 ## Install Tensorflow
 ```bash
 conda install -c anaconda tensorflow 
 ```
-## Install keras
+## Install Keras
 ```bash
 conda install -c anaconda keras
 ```
-## Install openCV
+## Install OpenCV
 ```bash
 conda install -c anaconda opencv
 ```
@@ -15,4 +17,17 @@ conda install -c anaconda opencv
 conda install -c conda-forge tqdm
 conda install -c anaconda ipyparallel
 conda install -c cvxgrp cvxpy libgcc
+```
+
+## Install Dask
+
+
+## Install Imaging packages
+```bash
+pip install -e CaImAn
+cd trefide/src
+make clean
+make
+LDSHARED="icc -shared" CC=icc CXX=icpc pip install -e /path/to/trefide
+pip install -e funimag
 ```
