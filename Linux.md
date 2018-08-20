@@ -1,5 +1,8 @@
 # Setup for cluster envorinment of conda
 
+## Old version of anaconda (python 3.5)
+https://repo.continuum.io/archive/Anaconda3-4.2.0-MacOSX-x86_64.pkg
+
 ## Install Tensorflow
 ```bash
 conda install -c anaconda tensorflow 
@@ -17,6 +20,17 @@ conda install -c anaconda opencv
 conda install -c conda-forge tqdm
 conda install -c anaconda ipyparallel future
 conda install -c cvxgrp cvxpy libgcc
+conda install -c anaconda cvxopt
+```
+
+## Install Node.JS
+```bash
+conda install -c conda-forge nodejs
+```
+
+## Install TexLive
+```bash
+conda install -c conda-forge texlive-core
 ```
 
 ## Install Dask
