@@ -22,3 +22,10 @@ conda install numba cudatoolkit
 
 ### GPU Dataframes: PyGDF
 
+### Cupy
+```bash
+conda install -c anaconda cupy 
+```
+
+### Pytorch SRU units
+https://github.com/taolei87/sru
