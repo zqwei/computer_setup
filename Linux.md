@@ -5,38 +5,17 @@ https://repo.continuum.io/archive/Anaconda3-4.2.0-MacOSX-x86_64.pkg
 
 ## Install Tensorflow
 ```bash
-conda install -c anaconda tensorflow 
-```
-## Install Keras
-```bash
-conda install -c anaconda keras
-```
-## Install OpenCV
-```bash
-conda install -c anaconda opencv
-```
-## Install others
-```bash
-conda install -c conda-forge tqdm
-conda install -c anaconda ipyparallel future
-conda install -c cvxgrp cvxpy libgcc
-conda install -c anaconda cvxopt
+conda install -c conda-forge tensorflow keras opencv tqdm ipyparallel future cvxopt nodejs dask-ml dask-drmaa
 ```
 
-## Install Node.JS
+## Install others
 ```bash
-conda install -c conda-forge nodejs
+conda install -c cvxgrp cvxpy libgcc
 ```
 
 ## Install TexLive
 ```bash
 conda install -c conda-forge texlive-core
-```
-
-## Install Dask
-```bash
-conda install -c conda-forge dask-ml
-conda install -c conda-forge dask-drmaa
 ```
 
 ## Install Imaging packages
