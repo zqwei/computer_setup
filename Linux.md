@@ -3,6 +3,10 @@
 ## Old version of anaconda (python 3.5)
 https://repo.continuum.io/archive/Anaconda3-4.2.0-MacOSX-x86_64.pkg
 
+```bash
+conda install Cython
+```
+
 ## Install Tensorflow
 ```bash
 conda install -c conda-forge tensorflow keras opencv tqdm ipyparallel future cvxopt nodejs dask-ml dask-drmaa
