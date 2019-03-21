@@ -89,3 +89,9 @@ https://www.continuum.io/downloads
 ## Remove guest account at login
 
 sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWOTHERUSERS_MANAGED -bool FALSE
+
+
+## MacOSX
+### rebuild spotlight
+
+sudo mdutil -E /
