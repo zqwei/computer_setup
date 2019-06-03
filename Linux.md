@@ -1,35 +1,14 @@
 # Setup for cluster envorinment of conda
 
-## Old version of anaconda (python 3.5)
-https://repo.continuum.io/archive/Anaconda3-4.2.0-MacOSX-x86_64.pkg
-
-```bash
-conda install Cython
-```
 
 ## Install Tensorflow
 ```bash
-conda install -c conda-forge tensorflow keras opencv tqdm ipyparallel future cvxopt nodejs dask-ml dask-drmaa
+conda install tensorflow-gpu keras opencv ipyparallel dask-glm dask-ml dask-searchcv nodejs cvxopt 
 ```
 
 ## Install others
 ```bash
-conda install -c cvxgrp cvxpy libgcc
-```
-
-## Install TexLive
-```bash
-conda install -c conda-forge texlive-core
-```
-
-## Install Imaging packages
-```bash
-pip install -e CaImAn
-cd trefide/src
-make clean
-make
-LDSHARED="icc -shared" CC=icc CXX=icpc pip install -e trefide
-pip install -e funimag
+conda install -c cvxgrp cvxpy
 ```
 
 # NoMachine Error
