@@ -3,12 +3,12 @@
 
 ## Install Tensorflow
 ```bash
-conda install tensorflow-gpu keras opencv ipyparallel dask-glm dask-ml dask-searchcv nodejs cvxopt 
+conda install dask tensorflow-gpu keras opencv ipyparallel dask-glm dask-ml dask-searchcv cvxopt cupy jupyter jupyterlab
 ```
 
 ## Install others
 ```bash
-conda install -c cvxgrp cvxpy
+pip install cvxpy
 ```
 
 # NoMachine Error
