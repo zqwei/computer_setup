@@ -3,7 +3,7 @@
 
 ## Install Tensorflow
 ```bash
-conda install dask tensorflow-gpu keras opencv ipyparallel dask-glm dask-ml dask-searchcv cvxopt cupy jupyter jupyterlab
+conda install dask tensorflow-gpu keras opencv ipyparallel dask-glm dask-ml cvxopt cupy jupyter jupyterlab
 ```
 
 ## Install others
